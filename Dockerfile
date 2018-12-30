@@ -6,3 +6,4 @@ RUN pacman -Syu --noconfirm nodejs npm openssh pm2 neovim git && \
 	chown -R root.root /root/.ssh && \
 	chmod 700 -R /root/.ssh && \
 	ln -s /bin/nvim /usr/local/bin/vim && \
+	npm install -g parcel-bundler @snootclub/post-receive
