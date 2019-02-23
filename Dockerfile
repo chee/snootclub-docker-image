@@ -16,5 +16,4 @@ RUN \
 	chmod 700 -R /root/.ssh && \
 	ln -s /bin/nvim /usr/local/bin/vim && \
 	ln -s /bin/nvim /usr/local/bin/vi && \
-	npm install -g parcel-bundler @snootclub/post-receive && \
-	{echo "export PATH=$(pwd)/install/bin/:$(pwd)/install/share/perl6/site/bin:\$PATH" >> /etc/profile}
+	npm install -g parcel-bundler @snootclub/post-receive
